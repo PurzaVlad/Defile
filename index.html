@@ -4,32 +4,36 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Défilé — Privacy Policy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet" />
   <style>
     :root { color-scheme: light; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
       line-height: 1.6;
-      color: #2b2b2b;
-      background: #f6f4ef;
+      color: #141414;
+      background: #F2EDE6;
       margin: 0;
       padding: 0;
     }
-    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-    h1 { font-size: 2rem; margin-bottom: 0.25rem; }
-    h2 { font-size: 1.25rem; margin-top: 2.25rem; }
-    .meta { color: #8a8276; font-size: 0.9rem; margin-bottom: 2rem; }
-    a { color: #9a6a2f; }
-    code { background: #ece8df; padding: 0.1em 0.35em; border-radius: 4px; }
-    footer { margin-top: 3rem; color: #8a8276; font-size: 0.85rem; }
+    .brand { background: #B5481C; padding: 22px 24px; }
+    .brand a { font-family: Questrial, "Helvetica Neue", Arial, sans-serif; color: #F2EDE6; font-size: 30px; letter-spacing: -0.5px; text-decoration: none; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+    h1 { font-family: "Bodoni Moda", Didot, Georgia, serif; font-weight: 400; font-size: 2.6rem; line-height: 1.05; margin: 0 0 0.5rem; letter-spacing: -0.02em; }
+    h2 { font-family: "Bodoni Moda", Didot, Georgia, serif; font-weight: 400; font-size: 1.5rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #D9D1C7; }
+    .meta { color: #6E6862; font-size: 0.9rem; margin-bottom: 2rem; }
+    a { color: #B5481C; }
+    code { background: #E9E3DA; padding: 0.1em 0.35em; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #141414; color: #6E6862; font-size: 0.85rem; }
   </style>
 </head>
 <body>
+  <div class="brand"><a href="index.html">d&eacute;fil&eacute;</a></div>
   <div class="wrap">
-    <h1>Défilé — Privacy Policy</h1>
-    <p class="meta">Last updated: 22 August 2026 · <a href="terms.html">Terms of Service</a></p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: 23 September 2026 · <a href="terms.html">Terms of Service</a></p>
 
     <p>
-      Défilé is a runway walk and pose coaching app. This policy explains what
+      Défilé is a runway walk coaching app. This policy explains what
       data the app collects, how it is used, and the controls you have. We keep
       it short because the app collects very little.
     </p>
@@ -38,17 +42,19 @@
     <p>
       Recordings and clips you choose from your photo library are analysed
       <strong>on your device</strong> using Google ML Kit. The video itself is
-      <strong>never uploaded</strong>. Only the resulting pose measurements and
-      scores are sent to our backend so we can generate coaching feedback.
+      <strong>never uploaded and never kept</strong>: the app deletes its copy of
+      the clip as soon as the analysis finishes (your original stays in your
+      photo library). Only the resulting pose measurements and scores are sent to our backend so we can generate coaching feedback.
     </p>
 
     <h2>What we store</h2>
     <ul>
       <li>Your account <strong>email address</strong>.</li>
-      <li>The <strong>profile</strong> you set during onboarding (your goals and
-          preferences).</li>
-      <li>Each <strong>session's scores and metrics</strong> (numbers derived
-          from your walk or pose).</li>
+      <li>Your <strong>profile</strong>: your name and any goals you set.</li>
+      <li>Each <strong>session's scores, metrics and written coaching</strong>
+          (numbers derived from your walk).</li>
+      <li>A <strong>daily count of analyses</strong>, used only to apply a fair-use
+          limit.</li>
     </ul>
     <p>
       That is the full extent of it. Every record is private to your account and
@@ -65,7 +71,10 @@
     <p>
       We use <a href="https://supabase.com/privacy">Supabase</a> to host your
       account and session data, and <strong>Sign in with Apple</strong> and
-      <strong>Google Sign-In</strong> for authentication. These providers process
+      <strong>Google Sign-In</strong> for authentication. Account emails
+      (confirmation and password reset) are sent through Google&rsquo;s email
+      service. Daily reminders, if you turn them on, are scheduled on your device
+      and involve no server. These providers process
       your data only to deliver these services. We do not use any advertising or
       analytics SDKs, and we do not track you across other apps or websites.
     </p>
@@ -100,8 +109,7 @@
     <h2>Your controls</h2>
     <p>
       You can sign out at any time. To erase your account and every piece of data
-      we hold — permanently — use <strong>Remove account</strong> on the Profile
-      screen in the app. This deletes your authentication record, profile, and all
+      we hold — permanently — use <strong>Delete account</strong> in Profile in the app. This deletes your authentication record, profile, and all
       session data immediately.
     </p>
 
@@ -119,7 +127,7 @@
     <h2>Contact</h2>
     <p>
       Questions about this policy or your data? Email
-      <a href="mailto:vpurza@gmail.com">vpurza@gmail.com</a>.
+      <a href="mailto:support.defile@gmail.com">support.defile@gmail.com</a>.
     </p>
 
     <footer>© 2026 Défilé. All rights reserved.</footer>
